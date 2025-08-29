@@ -1,12 +1,4 @@
- // Scroll to contact section when "Hire Me" button is clicked
-function scrollToContact() {
-  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
-}
-
-// Form submit message (basic simulation)
-document.querySelector("form").addEventListener("submit", function(event) {
-  event.preventDefault();
-  alert("Thank you! Your message has been sent.");
+ // Scroll to contact section when "Hire
   /* General Styling */
 * {
   margin: 0;
@@ -100,43 +92,7 @@ section {
   padding: 20px;
   width: 250px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
-.project-card h3 {
-  margin-bottom: 10px;
-}
-
-/* Contact */
-.contact form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: auto;
-}
-.contact input, .contact textarea {
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-.contact button {
-  background: #2575fc;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-/* Footer */
-footer {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-}
-[8/29, 10:21 AM] Yuga 🥰: <!DOCTYPE html>
+  bo<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
